@@ -30,24 +30,30 @@ const page = () => {
                     in seconds
                 </motion.h1>
             </HeroHighlight>
-            
-            <div className="text-lg text-center font-medium mb-4 text-gray-600 dark:text-gray-300">
-                A quick, free tool to create standout text-over-image designs
+
+            {/* 🔥 SaaS-style conversion callout */}
+            <div className="text-center max-w-xl mx-auto my-6">
+                <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-white">
+                    Tired of boring text overlays?
+                </h2>
+                <p className="text-gray-600 dark:text-gray-300 mt-2">
+                    LayerText lets you create eye-catching text-behind-image visuals in under 30 seconds — no design skills required.
+                </p>
+
+                <Link href="/app">
+                    <button className="mt-6 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition duration-200">
+                        Launch the App →
+                    </button>
+                </Link>
             </div>
 
-            <Link href={'/app'} className='mb-10'>
-                <HoverBorderGradient containerClassName="rounded-full" as="button" className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2">
-                    Try It Now
-                </HoverBorderGradient>
-            </Link>
-
-            {/* Optional: Keep one badge */}
+            {/* Optional: Keep one Product Hunt badge */}
             <div className="flex space-x-4">
                 <a href="https://www.producthunt.com/posts/text-behind-image?embed=true&utm_source=badge-top-post-badge&utm_medium=badge" target="_blank">
                     <img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=494264&theme=light&period=daily" alt="Top Post on Product Hunt" width="250" height="54" />
                 </a>
             </div>
-            
+
             <div className='w-full h-full mt-2'>
                 <HeroImages />
                 <HeroParallaxImages />
