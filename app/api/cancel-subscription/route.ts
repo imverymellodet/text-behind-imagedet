@@ -34,3 +34,8 @@ export async function POST(req: Request) {
   }
 }
 */
+// app/api/cancel-subscription/route.ts
+
+export async function POST() {
+  return new Response("Temporarily disabled", { status: 200 });
+}
