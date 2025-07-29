@@ -1,3 +1,4 @@
+/*
 import { stripe } from "@/lib/stripe";
 import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
@@ -32,3 +33,4 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: error }, { status: 500 });
   }
 }
+*/
