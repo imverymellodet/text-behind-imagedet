@@ -21,7 +21,7 @@ const page = () => {
                     transition={{ duration: 0.5, ease: [0.4, 0.0, 0.2, 1] }}
                     className="text-4xl lg:text-6xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-extrabold text-black dark:text-white"
                 >
-                    <Highlight className='text-white bg-gradient-to-r from-purple-600 to-indigo-500 px-3 py-1 rounded-lg'>LayerText</Highlight> lets your visuals speak volumes
+                    <Highlight className='text-white bg-gradient-to-r from-purple-600 to-indigo-500 px-3 py-1 rounded-lg'>LayerText</Highlight> turns your ideas into scroll-stopping content
                 </motion.h1>
                 <motion.p
                     initial={{ opacity: 0, y: 10 }}
@@ -29,11 +29,11 @@ const page = () => {
                     transition={{ delay: 0.3, duration: 0.6, ease: 'easeOut' }}
                     className="mt-4 text-lg max-w-2xl text-center mx-auto text-gray-700 dark:text-gray-300"
                 >
-                    A fast, free tool to put text behind your images like a pro. From memes to portfolios, give your content an unforgettable visual identity.
+                    LayerText is the easiest way to make viral text-behind-image visuals that stand out in feeds, pitch decks, or portfolios. Zero design skills required.
                 </motion.p>
                 <Link href="/app">
                     <button className="mt-6 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-indigo-700 hover:to-purple-700 text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-all">
-                        Start Designing →
+                        Launch the App →
                     </button>
                 </Link>
             </HeroHighlight>
@@ -41,7 +41,7 @@ const page = () => {
             <section className="w-full px-6 py-10 md:py-16 text-center">
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white">Why creators love LayerText</h2>
                 <p className="mt-4 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-                    Whether you're building a brand, launching a project, or just flexing your creativity—LayerText makes it effortless to turn ideas into visuals.
+                    From content creators to marketers and founders—LayerText helps bring stories to life with effortless visual flair.
                 </p>
             </section>
 
