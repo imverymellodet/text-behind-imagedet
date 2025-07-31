@@ -3,16 +3,17 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from '@/components/ui/hero-highlight';
-import { HeroImages } from '@/components/hero-images';
 import { HoverBorderGradient } from '@/components/ui/hover-border-gradient';
-import { HeroParallaxImages } from '@/components/hero-parallax-images';
 import { AdditionalInfo } from '@/components/additional-info';
 import Link from 'next/link';
 import FirecrawlAd from '@/ads/firecrawl';
 
 const page = () => {
     return ( 
-        
+        <div className='flex flex-col min-h-screen items-center w-full bg-gradient-to-br from-gray-100 to-white dark:from-gray-900 dark:to-black'>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1609710199882100" crossOrigin="anonymous"></script>
+            <FirecrawlAd />
+            
             <HeroHighlight>
                 <motion.h1
                     initial={{ opacity: 0, y: 20 }} 
@@ -43,11 +44,6 @@ const page = () => {
                     Whether you're building a brand, launching a project, or just flexing your creativity—LayerText makes it effortless to turn ideas into visuals.
                 </p>
             </section>
-
-            <div className='w-full h-full mt-4'>
-                <HeroImages />
-                <HeroParallaxImages />
-            </div>
 
             <div className="flex flex-col items-center justify-center my-16">
                 <AdditionalInfo />
