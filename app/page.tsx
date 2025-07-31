@@ -12,10 +12,7 @@ import FirecrawlAd from '@/ads/firecrawl';
 
 const page = () => {
     return ( 
-        <div className='flex flex-col min-h-screen items-center w-full bg-gradient-to-br from-gray-100 to-white dark:from-gray-900 dark:to-black'>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1609710199882100" crossOrigin="anonymous"></script>
-            <FirecrawlAd />
-            
+        
             <HeroHighlight>
                 <motion.h1
                     initial={{ opacity: 0, y: 20 }} 
